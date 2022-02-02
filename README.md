@@ -1,46 +1,37 @@
-# Project-Webpack
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-A basic webpack boilerplate, ready to be used immediately, no configuration needed. It doesn't tell you, which framework or library you should be using, it contains only a handful of modules:
+# Leaderboard-App
 
+![Leaderboard](https://user-images.githubusercontent.com/71140133/152123296-999b911b-4ff1-4d8b-bca6-6a882577bf77.PNG)
+s
+
+Additional description about the project and its features.
+
+## Built With
+
+- HTML 
+- CSS
+- Javascript
 - Webpack
-- html-webpack-plugin
-- css-loader
-- style-loader
-- webpack-dev-server
 
-Everything else is up to you.
+## DEMO
 
-## Usage
+https://yerimah.github.io/Leaderboard-App/
 
-start by cloning this repository by running:
+## Getting Started
 
-```
-git clone https://github.com/Yerimah/Project-Webpack.git
-```
+To get a local copy up and running follow these simple example steps.
 
-cd to the folder
+### Prerequisites
 
-```
-cd Project-Webpack
-```
+clone repo: `git clone https://github.com/Yerimah/Leaderboard-App`
 
-run this command to install all the packages needed
+then
+`cd Leaderboard-App`
 
-```
-npm install
-```
+### Install
 
-to run a live server on port 8080 run this command
-
-```
-npm run start
-```
-
-to build your project run:
-
-```
-npm run build
-```
+run `npm install` to install dependencies
 
 ## Authors
 
@@ -50,6 +41,18 @@ npm run build
 - Twitter: [@iamdeewyne](https://twitter.com/iamdeewyne)
 - LinkedIn: [@daniel-yerimah](https://www.linkedin.com/in/daniel-yerimah/)
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
