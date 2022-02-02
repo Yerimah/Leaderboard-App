@@ -11,7 +11,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/index.html',
     }),
   ],
 
@@ -34,7 +34,7 @@ module.exports = {
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
-      }
+      },
     ],
   },
 };
