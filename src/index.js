@@ -18,7 +18,6 @@ form.addEventListener('submit', async (e) => {
 
   form.reset();
   await postData({ user, score });
-  
 });
 
 const refreshbtn = document.querySelector('.refresh-btn');
