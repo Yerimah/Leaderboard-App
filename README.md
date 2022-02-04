@@ -29,6 +29,9 @@ clone repo: `git clone https://github.com/Yerimah/Leaderboard-App`
 then
 `cd Leaderboard-App`
 
+To run locally
+`npm run start`
+
 ### Install
 
 run `npm install` to install dependencies

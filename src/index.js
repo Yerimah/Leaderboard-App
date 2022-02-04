@@ -21,14 +21,6 @@ form.addEventListener('submit', async (e) => {
   startup();
 });
 
-startup();
-
 const refreshbtn = document.querySelector('.refresh-btn');
 
-refreshbtn.addEventListener('click', () => {
-  const items = document.querySelector('.scorelist');
-
-  while (items.firstChild) {
-    items.removeChild(items.firstChild);
-  }
-});
+refreshbtn.addEventListener('click', startup);
