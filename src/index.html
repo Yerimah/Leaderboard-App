@@ -4,15 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script 
+    src="https://kit.fontawesome.com/c2d0b29889.js" 
+    crossorigin="anonymous">
+    </script>
     <title>Leaderboard</title>
 </head>
 <body>
     <main>
     <div class="head">    
-        <h1>Leaderboard</h1>
+       <h1 id="lead">Leaderboard</h1>
     </div>
 
-    <section class="main-section">
+    <section>
+      <div class="position-ranks">
+        <div class="user-ranks">
+            <p class="second-grade rank">2nd</p>
+            <i class="fas fa-user fa-5x"></i>
+            <p class="name"></p>
+            <p class="score"></p>
+        </div>
+        <div class="user-ranks">
+            <p class="first-grade rank">1st</p>
+            <i class="fas fa-user fa-7x"></i>
+            <p class="name"></p>
+            <p class="score"></p>
+        </div>
+        <div class="user-ranks">
+            <p class="third-grade rank">3rd</p>
+            <i class="fas fa-user fa-5x"></i>
+            <p class="name"></p>
+            <p class="score"></p>
+        </div>
+      </div>
+      <div class="main-section">
         <div class="scores-head">
             <div class="recent-score">
                 <h2>Recent Scores</h2>
@@ -20,7 +45,7 @@
             </div>
             <div class="score-table">
                 <ul class="scorelist">
-                   </ul>
+                </ul>
             </div>
         </div>
 
@@ -32,6 +57,7 @@
                 <button class="add-btn" type="submit">Submit</button>
             </form>
         </div>
+      </div>
     </section>
     </main>
 </body>
