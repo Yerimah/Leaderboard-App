@@ -5,17 +5,61 @@
 }
 
 body {
-  font-family: cursive;
-  background-color: burlywood;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #22223d;
 }
 
 main {
   padding: 20px;
-  margin: 35px 25px 0 25px;
+  margin: 35px 193px 45px 193px;
+  background-color: #373e59;
+  border-radius: 50px;
 }
 
 h1 {
   font-size: 46px;
+  text-align: center;
+  color: navajowhite;
+}
+
+.position-ranks {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 45px;
+}
+
+.rank {
+  text-align: center;
+  padding: 6px;
+  font-size: 20px;
+}
+
+.high_flyers {
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  font-weight: 400;
+  margin: 4px;
+}
+
+.high_flyers:hover {
+  background-color: #1bd8e1;
+}
+
+.second-grade {
+  color: rgb(138, 138, 138);
+}
+
+.first-grade {
+  color: rgb(245, 170, 50);
+}
+
+.third-grade {
+  color: rgb(199, 120, 72);
+}
+
+.fa-user {
+  color: azure;
 }
 
 .recent-score {
@@ -24,23 +68,31 @@ h1 {
 }
 
 .recent-score h2 {
-  font-size: 40px;
+  font-size: 35px;
+  color: navajowhite;
 }
 
 .refresh-btn {
   margin-left: 49px;
-  font-size: 29px;
-  padding: 5px;
-  border: 2px solid black;
+  font-size: 22px;
+  padding: 9px;
+  border-radius: 12px;
   background-color: white;
   font-weight: bold;
   cursor: pointer;
   box-shadow: 5px 5px black;
 }
 
+.refresh-btn:hover {
+  background-color: #1bd8e1;
+}
+
 .scorelist {
   list-style-type: none;
-  border: 3px solid black;
+  border: 3px solid white;
+  border-radius: 13px;
+  overflow-y: auto;
+  max-height: 245px;
 }
 
 .score {
@@ -54,8 +106,8 @@ h1 {
 
 .main-section {
   display: flex;
-  gap: 100px;
-  margin: 50px;
+  justify-content: space-around;
+  margin: 120px 4px 65px 4px;
 }
 
 .formdata {
@@ -66,21 +118,27 @@ h1 {
 
 input {
   padding: 10px;
+  border-radius: 13px;
 }
 
 .input-score h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 40px;
+  color: navajowhite;
 }
 
 .add-btn {
   display: flex;
   align-self: flex-end;
-  font-size: 24px;
+  font-size: 22px;
   background-color: white;
-  border: 2px solid black;
-  padding: 5px;
+  border-radius: 12px;
+  padding: 9px;
   font-weight: 600;
   cursor: pointer;
   box-shadow: 5px 5px black;
+}
+
+.add-btn:hover {
+  background-color: yellow;
 }
