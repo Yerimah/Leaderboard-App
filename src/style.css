@@ -5,14 +5,14 @@
 }
 
 body {
-  font-family: cursive;
-  background-color: rgb(5, 15, 113);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #22223d;
 }
 
 main {
   padding: 20px;
   margin: 35px 193px 45px 193px;
-  background-color: rgb(137, 137, 238);
+  background-color: #373e59;
   border-radius: 50px;
 }
 
@@ -28,12 +28,22 @@ h1 {
   margin-top: 45px;
 }
 
-.user-ranks {
-  background-color: rgb(74, 15, 14);
-}
-
 .rank {
   text-align: center;
+  padding: 6px;
+  font-size: 20px;
+}
+
+.high_flyers {
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  font-weight: 400;
+  margin: 4px;
+}
+
+.high_flyers:hover {
+  background-color: #1bd8e1;
 }
 
 .second-grade {
@@ -74,7 +84,7 @@ h1 {
 }
 
 .refresh-btn:hover {
-  background-color: yellow;
+  background-color: #1bd8e1;
 }
 
 .scorelist {
