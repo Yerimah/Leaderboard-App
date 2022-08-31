@@ -2,8 +2,8 @@
 
 # Leaderboard-App
 
-![Leaderboard](https://user-images.githubusercontent.com/71140133/152123296-999b911b-4ff1-4d8b-bca6-6a882577bf77.PNG)
-s
+![leadboard](https://user-images.githubusercontent.com/71140133/187745292-87a260e7-ed43-482f-b078-63e80221aff9.PNG)
+
 
 Additional description about the project and its features.
 
